@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon node index.js"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar0522/DesarrolloDR.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4"
-  }
+  "bugs": {
+    "url": "https://github.com/Omar0522/DesarrolloDR/issues"
+  },
+  "homepage": "https://github.com/Omar0522/DesarrolloDR#readme"
 }
