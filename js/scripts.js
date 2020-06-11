@@ -67,8 +67,3 @@
   
   })(jQuery); // End of use strict
   
-  function enviar(){
-    BootstrapDialog.show({
-      message: 'Hi Apple!'
-  });
-  }
