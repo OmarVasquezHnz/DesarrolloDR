@@ -13,6 +13,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link rel="preload">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!--Using jQuery v3.2.1-->
@@ -158,7 +159,7 @@
                         <form id="contactForm" name="sentMessage" novalidate="novalidate" method="POST" data-netlify="true">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Nombre</label><input name="name" class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor introduzca su nombre." />
+                                    <label>Nombre</label><input name="name" class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor introduzca su nombre." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
